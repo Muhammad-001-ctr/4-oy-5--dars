@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+:root{
+    --mainbgcolor: linear-gradient(94.31deg, rgba(212, 20, 90, )
+    rgba(46, 49, 146, 0.25) 104.83%);
+    --bigfontsize: 18px;
+    --smallfontsize: 14px;
+    --primarybtnbgcolor: linear-gradient(95.2deg, #B90160 
+    51%);
+    --primaryBorderRadius: 9px;
+    --primaryBtnBorderRadius: 7px; 
+}
+
+
+
+header{
+    padding: 35px;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    gap: 500px;
+}
+
+
+
+.navbar-left{
+    display: flex;
+    gap: 8px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+nav,ul,li{
+    display: flex;
+    gap: 50px;
+    color: #737373;
+}
+
+
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+
+
+.section-1-left-tex{
+    margin-top: 250px;
+    width: 500px;
+    height: 119px;
+}
+
+
+
+.section-1-left-big-tex{
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.section-1-left-button{
+    width: 179px;
+    height: 53px;
+    top: 550px;
+    left: 122px;
+    opacity: 1;
+    border-radius: 7px;
+    border: none;
+    color: #FFFFFF;
+    background-image: url(./assets/images/Rectangle\ 1.svg);
+    margin-top: 50px;
+}
+
+
+
+.section-2-top-tex{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #B90160;
+}
+
+
+
+.kartochkas-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.kartochka{
+    width: 344px;
+    height: 414px;
+    top: 1022px;
+    left: 143px;
+    border-radius: 9px;
+    box-shadow: 0px 4px 6px -4px black;
+    box-shadow: 0px 10px 15px -3px black;
+}
+
+
+
+.kartochka-many-tex{
+    color: #737373;
+    margin: 10px;
+}
+
+
+
+.kartochka > img{
+    border-radius: 9px;
+}
+
+
+
+.section-3{
+    background-color: #bd8a9d;
+    padding: 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.kartochka-short-in-length{
+    width: 436px;
+    height: 187px;
+    top: 1759px;
+    left: 499px;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+}
+
+
+
+.kartochka-short-in-length-tex{
+    color: #737373;
+    margin: 60px;
+    text-align: center;
+}
+
+
+
+
+
+
